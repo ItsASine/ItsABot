@@ -191,7 +191,7 @@ function initializeModules() {
 	//Creates mysql db object
 	if(config.database.usedb) {
 		try {
-			mysql = require('mysql');
+			mysql = require('mysql2');
 		} catch(e) {
 			console.log(e);
 			console.log('It is likely that you do not have the mysql node module installed.'

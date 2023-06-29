@@ -18,10 +18,10 @@
     "node": ">= 0.6.0"
   },
   "dependencies" : {
-    "ttapi": ">= 2.1.8",
+    "ttapi": "*",
     "request": "*",
     "xml2js": ">= 0.1.13",
-    "mysql":"*"
+    "mysql2":"*"
   },
   "devDependencies": {},
   "optionalDependencies": {}
